@@ -1,5 +1,7 @@
 package com.klusman.lib;
 
+import Data.WeatherData;
+
 public class dayClassInfo implements WeatherData {
 
 	String day;

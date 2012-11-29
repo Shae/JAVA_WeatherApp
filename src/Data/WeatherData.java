@@ -1,4 +1,4 @@
-package com.klusman.lib;
+package Data;
 
 public interface WeatherData {
 	

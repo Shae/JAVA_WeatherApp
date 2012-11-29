@@ -1,5 +1,12 @@
 package com.klusman.lib;
 
+import java.util.HashMap;
+
+
+// I AM NOT SURE HOW I CAN USE THIS YET.  I WANTED TO USE IT WHEN I PULL MY DATA FROM THE WEB, 
+// THEN I COULD INSERT THE WEATHER DATA INTO THE DAY 
+// (SINCE THERE CANT BE MORE THEN ONE OF ANY GIVEN DAY IN A 5 DAY SPAN)
+
 public enum DayConvert {
 
 	FIRST(1),
@@ -41,5 +48,45 @@ public enum DayConvert {
 	DayConvert(int value) {
 		this.value = value;
 	}
+	
+	public static HashMap<DayConvert, Integer> getDay(int day){
+		HashMap<DayConvert, Integer> date = new HashMap<DayConvert, Integer>();
+		DayConvert[] dates = {
+				FIRST,
+				SECOND,
+				THIRD,
+				FORTH,
+				FIFTH,
+				SIXTH,
+				SEVENTH,
+				EIGHTH,
+				NINTH,
+				TENTH,
+				ELEVENTH,
+				TWELVTH,
+				THIRTEENTH,
+				FOURTEENTH,
+				FIFTEENTH,
+				SIXTEENTH,
+				SEVENTEENTH,
+				EIGHTEENTH,
+				NINETEENTH,
+				TWENTIETH,
+				TWENTY_FIRST,
+				TWENTY_SECOND,
+				TWENTY_THIRD,
+				TWENTHY_FOURTH,
+				TWENTY_FIFTH,
+				TWENTY_SIXTH,
+				TWENTY_SEVENTH,
+				TWENTY_EIGHTH,
+				TWENTHY_NINTH,
+				THIRTIETH,
+				THIRTY_FIRST
+				};
+		
+		return date;
+	}
+	
 	
 }

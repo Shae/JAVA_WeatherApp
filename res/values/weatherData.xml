@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  DEFAULT DATA FILL (Example API Pull) -->
+    
+    	<weather>
+    	    <date>2012-11-29</date>
+    	    <tempMaxC>9</tempMaxC>
+    	    <tempMaxF>48</tempMaxF>
+    	    <tempMinC>6</tempMinC>
+    	    <tempMinF>43</tempMinF>
+    	    <windspeedMiles>5</windspeedMiles>
+    	    <windspeedKmph>8</windspeedKmph>
+    	    <winddirection>W</winddirection>
+    	    <winddir16Point>W</winddir16Point>
+    	    <winddirDegree>280</winddirDegree>
+    	    <weatherCode>143</weatherCode>
+    	    <weatherIconUrl>http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png</weatherIconUrl>
+    	    <weatherDesc>Mist</weatherDesc>
+    	    <precipMM>8.8</precipMM>
+    	</weather>
+    	<weather>
+    	    <date>2012-11-30</date>
+    	    <tempMaxC>10</tempMaxC>
+    	    <tempMaxF>50</tempMaxF>
+    	    <tempMinC>8</tempMinC>
+    	    <tempMinF>46</tempMinF>
+    	    <windspeedMiles>7</windspeedMiles>
+    	    <windspeedKmph>11</windspeedKmph>
+    	    <winddirection>S</winddirection>
+    	    <winddir16Point>S</winddir16Point>
+    	    <winddirDegree>180</winddirDegree>
+    	    <weatherCode>143</weatherCode>
+    	    <weatherIconUrl>http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png</weatherIconUrl>
+    	    <weatherDesc>Mist</weatherDesc>
+    	    <precipMM>12.7</precipMM>  
+    	</weather>
+
+   
+</resources>

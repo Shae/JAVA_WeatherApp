@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TableLayout;
 
 public class JAVA_WeatherApp extends Activity {
 
@@ -39,10 +40,11 @@ public class JAVA_WeatherApp extends Activity {
 			}
 		});
         
-        
+        TableLayout myTable = formLayouts.table(this);
         
         
         ll.addView(entryBox);
+        ll.addView(myTable);
         setContentView(ll);
     }
 
