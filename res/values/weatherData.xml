@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--  DEFAULT DATA FILL (Example API Pull) -->
-    
+   <!--
     	<weather>
     	    <date>2012-11-29</date>
     	    <tempMaxC>9</tempMaxC>
@@ -35,6 +35,22 @@
     	    <weatherDesc>Mist</weatherDesc>
     	    <precipMM>12.7</precipMM>  
     	</weather>
-
+ -->
+   <!-- CANT GET THIS TO WORK! -->
+   
+   <string name="day1"> Tomorrow</string>
+   <string name="maxTemp"> 48 </string>
+   <string name="minTemp"> 35</string>
+   <string name="windSpeed"> 7</string>
+   
+      <string name="day2"> The Day After Tomorrow</string>
+   <string name="maxTemp2"> 51 </string>
+   <string name="minTemp2"> 39</string>
+   <string name="windSpeed2"> 4</string>
+   
+      <string name="day3"> Two Days from Now</string>
+   <string name="maxTemp3"> 42 </string>
+   <string name="minTemp3"> 27</string>
+   <string name="windSpeed3"> 16</string>
    
 </resources>

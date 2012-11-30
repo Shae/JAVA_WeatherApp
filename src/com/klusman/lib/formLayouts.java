@@ -37,6 +37,7 @@ public class formLayouts {
 		
 	}
 	
+	//  Not sure how to get it to loop through the data yet and make a new row for each...  BUMMER
 	public static TableLayout table(Context context) {
 		String[] testData = {"test 1", "test 2", "Test 3", "Test 4"};
 		int testDataSize = testData.length;
@@ -56,6 +57,22 @@ public class formLayouts {
 		return tbl;
 	}
 	
+	public static LinearLayout myTextView(Context context){
+		LinearLayout ll = new LinearLayout(context);
+		LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+		ll.setLayoutParams(lp);
+		
+		TextView newLine = new TextView(context);
+		
+		
+		lp = new LayoutParams(0, LayoutParams.WRAP_CONTENT, 1.0f);
+		newLine.setId(1);
+		
+		ll.addView(newLine);
+		
+		return ll;
+	}
+
 	
 	
 	
